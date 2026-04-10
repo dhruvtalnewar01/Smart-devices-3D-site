@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EpiSentinel | Cinematic Experience</title>
+  <meta name="description" content="A state-of-the-art cinematic scrolling 3D experience for EpiSentinel Smart Ecosystem.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="spinner"></div>
+      <p id="loading-text">INITIALIZING EPISENTINEL <span id="progress">0</span>%</p>
+    </div>
+  </div>
+
+  <nav>
+    <div class="logo-container">
+      <div class="logo-title">EPISENTINEL</div>
+      <div class="logo-subtitle">SMART ECOSYSTEM</div>
+    </div>
+    <div class="nav-links">
+      <a href="#">DEVICE PROTOCOLS</a>
+      <a href="#">ECOSYSTEM SYNTHESIS</a>
+      <a href="#">HYBRID OS APPROACH</a>
+      <a href="#">HARDWARE OUTCOMES</a>
+    </div>
+    <a href="#" class="btn-primary">ACCESS HUB</a>
+  </nav>
+
+  <main>
+    <!-- Background Canvas -->
+    <div class="canvas-container">
+      <canvas id="hero-canvas"></canvas>
+      <div class="vignette"></div>
+    </div>
+    
+    <!-- Scrolling Section for driving the animation -->
+    <div class="scroll-wrapper" style="height: 500vh;">
+      <!-- Removed all text info loops for uninterrupted 3D view -->
+    </div>
+
+    <!-- What We Do Section -->
+    <section class="what-we-do">
+      <div class="wwd-content">
+        <h3 class="wwd-title">WHAT WE DO</h3>
+        <p class="wwd-text">
+          "In an era of disjointed electronics, <strong>EpiSentinel</strong> serves as the definitive cognitive layer. We architect the infrastructure for seamless device synergy, moving beyond simple connectivity to deep behavioral intelligence, unified health arrays, and true ambient computing."
+        </p>
+      </div>
+    </section>
+
+    <!-- Device 1: Smartwatch -->
+    <section class="device-section" id="device-1">
+      <div class="canvas-pin-container">
+        <canvas id="canvas-device-1"></canvas>
+        <div class="vignette"></div>
+        <div class="device-info right">
+          <h2 class="device-title">AURA CHRONOS</h2>
+          <p class="device-desc">Holographic Biometric Hub</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Device 2: Smartphone -->
+    <section class="device-section" id="device-2">
+      <div class="canvas-pin-container">
+        <canvas id="canvas-device-2"></canvas>
+        <div class="vignette"></div>
+        <div class="device-info left">
+          <h2 class="device-title">NEXUS OMNI</h2>
+          <p class="device-desc">Volumetric Processing Core</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Device 3: Earbuds -->
+    <section class="device-section" id="device-3">
+      <div class="canvas-pin-container">
+        <canvas id="canvas-device-3"></canvas>
+        <div class="vignette"></div>
+        <div class="device-info center-top">
+          <h2 class="device-title">SYNAPSE PODS</h2>
+          <p class="device-desc">Neural Audio Linkage Array</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infographics Section -->
+    <section class="infographics-wrapper">
+      
+      <!-- Block 1: Architecture Flowchart -->
+      <div class="info-block" id="info-block-1">
+        <h3 class="info-title">ECOSYSTEM SYNTHESIS ARCHITECTURE</h3>
+        <p class="info-subtitle">A Unified Governance Layer For All Peripherals</p>
+        
+        <div class="flowchart-container">
+           <div class="fc-node top">EPI-CORE PROCESSOR</div>
+           <div class="fc-lines-vertical"></div>
+           <div class="fc-row">
+              <div class="fc-node child">AURA CHRONOS<br><span>Biometric Array</span></div>
+              <div class="fc-node child">NEXUS OMNI<br><span>Volumetric Core</span></div>
+              <div class="fc-node child">SYNAPSE PODS<br><span>Neural Interface</span></div>
+           </div>
+           <div class="fc-lines-join"></div>
+           <div class="fc-node bottom">GLOBAL DATA LAKE</div>
+        </div>
+      </div>
+
+      <!-- Block 2: Data Dashboard -->
+      <div class="info-block" id="info-block-2">
+        <h3 class="info-title">REAL-TIME DATA SYNTHESIS</h3>
+        <p class="info-subtitle">Deep Behavioral Synchronization Matrix</p>
+        
+        <div class="dashboard-container">
+           <div class="db-panel">
+               <h4>Threat Detection <span class="badge">Active</span></h4>
+               <div class="progress-bar"><div class="fill" style="width: 95%;"></div></div>
+               <p class="stat">95.4% Efficiency</p>
+           </div>
+           <div class="db-panel center">
+               <div class="radar-scan">
+                   <div class="radar-dot"></div>
+               </div>
+               <p class="stat" style="text-align: center;">Scanning 14.2M Nodes</p>
+           </div>
+           <div class="db-panel">
+               <h4>Neural Latency <span class="badge warning">Optimizing</span></h4>
+               <div class="progress-bar"><div class="fill" style="width: 62%;"></div></div>
+               <p class="stat">~ 12ms Response</p>
+           </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Vapi Assistant Button -->
+    <div class="vapi-container" id="vapi-btn" title="Ana - Core Intelligence">
+      <div class="vapi-ring"></div>
+      <div class="vapi-orb">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+          <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+          <line x1="12" y1="19" x2="12" y2="23"></line>
+          <line x1="8" y1="23" x2="16" y2="23"></line>
+        </svg>
+      </div>
+    </div>
+  </main>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Vapi Web SDK Integration -->
+  <script type="module">
+    import Vapi from "https://esm.sh/@vapi-ai/web";
+    
+    // Initialize Vapi with Public Key
+    const vapi = new Vapi("1fd2ad76-3d06-4032-8d59-aba957b6fd73");
+    const vapiBtn = document.getElementById("vapi-btn");
+    let isTalking = false;
+
+    vapiBtn.addEventListener("click", () => {
+      if (!isTalking) {
+        vapi.start("97bbbd6e-be90-4510-9d0b-7feae5f4dc60");
+        vapiBtn.classList.add("active");
+        isTalking = true;
+      } else {
+        vapi.stop();
+        vapiBtn.classList.remove("active");
+        isTalking = false;
+      }
+    });
+
+    vapi.on('call-start', () => { vapiBtn.classList.add("active"); });
+    vapi.on('call-end', () => { vapiBtn.classList.remove("active"); vapiBtn.classList.remove("speaking"); isTalking = false; });
+    vapi.on('speech-start', () => { vapiBtn.classList.add("speaking"); });
+    vapi.on('speech-end', () => { vapiBtn.classList.remove("speaking"); });
+    vapi.on('volume-level', (lvl) => {
+       const scale = 1 + (lvl * 0.4);
+       if (vapiBtn.classList.contains("speaking")) {
+           vapiBtn.style.transform = `scale(${scale})`;
+       } else {
+           vapiBtn.style.transform = `scale(1)`;
+       }
+    });
+  </script>
+</body>
+</html>
